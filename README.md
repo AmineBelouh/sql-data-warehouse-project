@@ -18,11 +18,11 @@ The data architecture for this project follows Medallion Architecture **Bronze**
   - [DDL Silver Layer](scripts/silver/ddl_silver.sql)
   - [Procedure Load Silver](scripts/silver/procedure_load_silver.sql)
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
-
+**(In Progress)**
 ---
 ## Project Overview
 
-This project involves:
+This project involves:  
 
 1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
 2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
