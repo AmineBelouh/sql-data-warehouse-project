@@ -3,9 +3,19 @@
 # Shoutout to Baraa Khatib Salkini for the outstanding SQL Course [Click to view course](https://www.youtube.com/watch?v=SSKVgrwhzus)
 
 Welcome to my **Data Warehouse and Analytics Project** repository! 
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights.
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights.  
 
 ---
+## Project Overview
+
+This project involves:  
+
+1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
+2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
+4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+---  
+
 ## Data Architecture
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:  
 
@@ -18,13 +28,13 @@ The data architecture for this project follows Medallion Architecture **Bronze**
   - [DDL Silver Layer](scripts/silver/ddl_silver.sql)
   - [Procedure Load Silver](scripts/silver/procedure_load_silver.sql)
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
-**(In Progress)**
+  - [DDL Gold Layer](scripts/gold/ddl_gold.sql)
 ---
-## Project Overview
 
-This project involves:  
+## Data Flow Diagram  
 
-1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
-2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+![Data Flow](images/data_flow_diagram.png)  
+
+## Data Model (Star Schema)
+
+![Star Schema](images/sales_data_model.png)  
