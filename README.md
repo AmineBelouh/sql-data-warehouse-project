@@ -1,6 +1,6 @@
-# Data Warehouse and Analytics Project *w/ PostgreSQL* (in progress)  
+# Data Warehouse and Analytics Project *w/ PostgreSQL*
 
-# Shoutout to Baraa Khatib Salkini for the outstanding SQL Course [Click to view course](https://www.youtube.com/watch?v=SSKVgrwhzus)
+## Shoutout to Baraa Khatib Salkini for the amazing SQL Course [Click to view course](https://www.youtube.com/watch?v=SSKVgrwhzus)
 
 Welcome to my **Data Warehouse and Analytics Project** repository! 
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights.  
@@ -38,3 +38,17 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 ## Data Model (Star Schema)
 
 ![Star Schema](images/sales_data_model.png)  
+
+---  
+
+## Analytics  
+
+![Analytics Roadmap](images/analytics_roadmap.png)  
+
+**Here are the queries of the analysis:**
+-  [Exploratory Data Analysis](analysis_queries/EDA.sql)
+-  [Advance Analytics](analysis_queries/advance_analytics)
+
+**Here are the queries of the reports:**
+-  [Customers Report](analysis_queries/reports/customers_report.sql)
+-  [Products Report](analysis_queries/reports/products_report.sql)
